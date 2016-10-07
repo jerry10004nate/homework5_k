@@ -15,8 +15,8 @@ public class MaxAndMin {
 		
 		while(true){
 			System.out.print("숫자를 입력(Q:종료) >> ");
-			i = (int)sc.nextInt();
-			if(i==113)
+			i = sc.nextInt();
+			if(i=='Q')
 				break;
 			else if(i>=0 && i<=100){
 				if(i>max)
