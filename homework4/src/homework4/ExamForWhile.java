@@ -35,5 +35,4 @@ public class ExamForWhile {
 		else if(select==6)
 			return;
 	}
-
 }
