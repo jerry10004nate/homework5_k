@@ -19,9 +19,9 @@ public class GuGuDan2 {
 					System.out.println();
 				}
 			}
-			else if(s.equals("E")){
+			else if(s.equals("O")){
 				for(int i=1; i<10; ++i){
-					for(int j=1; j<10; j+=2)
+					for(int j=3; j<10; j+=2)
 						System.out.printf("%d * %d = %d    ", j, i, j*i);
 					System.out.println();
 				}
