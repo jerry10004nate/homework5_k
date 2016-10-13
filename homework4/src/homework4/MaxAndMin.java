@@ -8,18 +8,18 @@ public class MaxAndMin {
 		min=100;
 	}
 	void MaxMin(){
-		System.out.println("###ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
+		System.out.println("###ìµœëŒ€ê°’/ìµœì†Œê°’êµ¬í•˜ê¸°");
 	
 		String i;
 		Scanner sc = new Scanner(System.in);
 		
 		while(true){
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á) >> ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ) >> ");
 			i = sc.nextLine();
 			
 			if(i.equals("Q"))
 				break;
-			else if(Integer.parseInt(i)>=0 && Integer.parseInt(i)<=100){
+			else if(Integer.parseInt(i)>=1 && Integer.parseInt(i)<=100){
 				if(Integer.parseInt(i)>max)
 					max=Integer.parseInt(i);
 				else if(Integer.parseInt(i)<min)
@@ -27,7 +27,7 @@ public class MaxAndMin {
 			}
 			else continue;
 		}
-		System.out.printf("°¡Àå Å« ¼ö´Â %dÀÌ°í, ÀÛÀº¼ö´Â %dÀÔ´Ï´Ù.\n",max, min);
+		System.out.printf("ê°€ì¥ í° ìˆ˜ëŠ” %dì´ê³ , ì‘ì€ìˆ˜ëŠ” %dì…ë‹ˆë‹¤.\n",max, min);
 		return;
 	}
 }
