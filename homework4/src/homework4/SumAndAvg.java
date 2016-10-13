@@ -8,22 +8,22 @@ public class SumAndAvg {
 	SumAndAvg(){}
 	
 	void Sum(){
-		System.out.println("###ÀÔ·Â¹ŞÀº¼ıÀÚÀÇ ÇÕ°è¿Í Æò±Õ ±¸ÇÏ±â");
+		System.out.println("###ì…ë ¥ë°›ì€ìˆ«ìì˜ í•©ê³„ì™€ í‰ê·  êµ¬í•˜ê¸°");
 	
 		while(true){
 			Scanner sc = new Scanner(System.in);
 			
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á) >> ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ) >> ");
 			num = sc.nextLine();
 			if(num.equals("Q"))
 				break;
 			sum+=Integer.parseInt(num);
 			++cnt;
 		}
-		System.out.printf("ÇÕ°è´Â %dÀÌ°í, Æò±ÕÀº  %.2fÀÔ´Ï´Ù.\n",sum,Avg());
+		System.out.printf("í•©ê³„ëŠ” %dì´ê³ , í‰ê· ì€  %.2fì…ë‹ˆë‹¤.\n",sum,Avg());
 	}
 	float Avg(){
-		return sum/cnt;
+		return (float)sum/cnt;
 	}
 
 }
