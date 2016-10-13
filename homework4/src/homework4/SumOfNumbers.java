@@ -5,13 +5,12 @@ public class SumOfNumbers {
 	String num;
 	
 	SumOfNumbers(){}
-	
 	void Sum(){
 		Scanner sc = new Scanner(System.in);
-		System.out.println("###1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
+		System.out.println("###1ë¶€í„° ìž…ë ¥í•œ ìˆ˜ê¹Œì§€ ë”í•˜ê¸°");
 		
 		while (true) {
-			System.out.print("¸¶Áö¸· ¼ö¸¦ ÀÔ·Â(Q:Á¾·á) >>");
+			System.out.print("ë§ˆì§€ë§‰ ìˆ˜ë¥¼ ìž…ë ¥(Q:ì¢…ë£Œ) >>");
 			num = sc.nextLine();
 			
 			if(num.equals("Q"))
@@ -19,7 +18,7 @@ public class SumOfNumbers {
 			else {
 				for (int i = 1; i <= Integer.parseInt(num); ++i)
 					sum += i;
-				System.out.printf("ÃÑ ÇÕÀº %dÀÔ´Ï´Ù.\n", sum);
+				System.out.printf("ì´ í•©ì€ %dìž…ë‹ˆë‹¤.\n", sum);
 			}
 			sum=0;
 		}
