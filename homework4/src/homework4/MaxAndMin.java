@@ -1,12 +1,9 @@
 package homework4;
 import java.util.Scanner;
 public class MaxAndMin {
-	int max;
-	int min;
-	MaxAndMin(){
-		max=0;
-		min=100;
-	}
+	int max=0;
+	int min=101;
+	MaxAndMin(){}
 	void MaxMin(){
 		System.out.println("###최대값/최소값구하기");
 	
