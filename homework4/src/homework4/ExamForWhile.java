@@ -5,14 +5,16 @@ public class ExamForWhile {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		while (true) {
-			System.out.println("1.1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
-			System.out.println("2. ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
-			System.out.println("3. ÀÔ·Â¹ÞÀº ¼ýÀÚÀÇ ÇÕÚÈ­ Æò±Õ±¸ÇÏ±â");
-			System.out.println("4. ¿øÇÏ´Â ±¸±¸´Ü Ãâ·ÂÇÏ±â");
-			System.out.println("5. Â¦¼ö´Ü/È¦¼ö´Ü Ãâ·ÂÇÏ±â");
-			System.out.println("6. Á¾·áÇÏ±â");
-			System.out.print("¿øÇÏ´Â ¸Þ´º´Â >>");
+			System.out.println("*******************");
+			System.out.println("ë°˜ë³µë¬¸ ì—°ìŠµí•˜ê¸°");
+			System.out.println("*******************");
+			System.out.println("1. 1ë¶€í„° ìž…ë ¥í•œ ìˆ˜ê¹Œì§€ ë”í•˜ê¸°");
+			System.out.println("2. ìµœëŒ€ê°’/ìµœì†Œê°’êµ¬í•˜ê¸°");
+			System.out.println("3. ìž…ë ¥ë°›ì€ ìˆ«ìžì˜ í•©ê³™í™” í‰ê· êµ¬í•˜ê¸°");
+			System.out.println("4. ì›í•˜ëŠ” êµ¬êµ¬ë‹¨ ì¶œë ¥í•˜ê¸°");
+			System.out.println("5. ì§ìˆ˜ë‹¨/í™€ìˆ˜ë‹¨ ì¶œë ¥í•˜ê¸°");
+			System.out.println("6. ì¢…ë£Œí•˜ê¸°");
+			System.out.print("ì›í•˜ëŠ” ë©”ë‰´ëŠ” >>");
 			int select = sc.nextInt();
 
 			if (select == 1) {
@@ -32,8 +34,6 @@ public class ExamForWhile {
 				GuGuDan2 gugu2 = new GuGuDan2();
 				gugu2.guguCalc();
 			} else if (select == 6)
-				break;
-		}
-		return;
+				return;
 	}
 }
