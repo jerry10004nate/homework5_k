@@ -5,11 +5,11 @@ public class GuGuDan2 {
 	
 	void guguCalc(){
 		String s;
-		System.out.println("###Â¦¼ö´Ü È¦¼ö´Ü Ãâ·ÂÇÏ±â");
+		System.out.println("###Â¦ï¿½ï¿½ï¿½ï¿½ È¦ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½");
 		Scanner sc = new Scanner(System.in);
 		
 		while(true){
-			System.out.print("E:Â¦¼ö´Ü, O:È¦¼ö´Ü(Q:Á¾·á) >> ");
+			System.out.print("E:Â¦ï¿½ï¿½ï¿½ï¿½, O:È¦ï¿½ï¿½ï¿½ï¿½(Q:ï¿½ï¿½ï¿½ï¿½) >> ");
 			s = sc.nextLine();
 			
 			if(s.equals("E")){
